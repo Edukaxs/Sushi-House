@@ -1,4 +1,4 @@
-# Basic PHP & MySQL Website 🌐🐘
+# Basic PHP & MySQL Website 🌐🐘🍣
 
 ## About 🧠
 
@@ -23,6 +23,7 @@ This project was developed as part of the **Web Programming (PW)** course. Its p
 * JavaScript
 * XAMPP (Apache + MySQL)
 
+<div align="center">
 <a href="https://www.w3.org/Style/CSS/Overview.en.html">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="45" alt="CSS" />
 </a>
@@ -42,6 +43,7 @@ This project was developed as part of the **Web Programming (PW)** course. Its p
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="45" alt="MySQL" />
 </a>
 &nbsp;&nbsp;
+</div>
 
 ## Requirements 
 
@@ -49,11 +51,7 @@ This project was developed as part of the **Web Programming (PW)** course. Its p
 * PHP 8.x or newer
 * MySQL
 
-<a href="https://www.apachefriends.org/pt_br/index.html">
-  <img src="https://uxwing.com/xampp-icon/" height="45" alt="Xampp" />
-</a>
-&nbsp;&nbsp;
-
+<div align="center">
 <a href="https://www.php.net/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="45" alt="PHP" />
 </a>
@@ -63,6 +61,7 @@ This project was developed as part of the **Web Programming (PW)** course. Its p
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="45" alt="MySQL" />
 </a>
 &nbsp;&nbsp;
+</div>
 
 ## Installation
 
