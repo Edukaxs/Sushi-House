@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    color: rgb(255, 102, 0);
+}
+
+h1, h2, p {
+    color: white;
+    font-family: Roboto;
+}
+
+.menu {
+    display: flex;
+    gap: 7vw;
+    width: 100%;
+    height: 9%;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 1), rgba(20, 20, 20, 0));
+}
+
+.login button {
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.logo img {
+    width: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    transform-origin: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.login img {
+    width: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login img:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    transform-origin: center;
+
+}
+
+.links {
+    width: 75%;
+    height: 5vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 7vw;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+.nav li:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    transform-origin: center;
+}
+
+footer {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}

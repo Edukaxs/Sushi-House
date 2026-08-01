@@ -1,0 +1,293 @@
+:root {
+    --dark: #1a1a1a;
+    --dark-2: #232323;
+    --orange: #e8542a;
+    --orange-dark: #c9431d;
+    --gray: #777777;
+    --light-bg: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* ===== LADO ESQUERDO (IMAGEM) ===== */
+.auth-banner {
+    flex: 1;
+    background-image: linear-gradient(180deg, rgba(10,10,10,0.55) 0%, rgba(10,10,10,0.85) 100%), url("../_img/sushi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.auth-banner .logo {
+    height: 3.5vh;
+    width: 3.5vw;
+}
+
+
+.auth-banner .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 1.25vw 1.25vw 0 0;
+    display: block;
+}
+
+.auth-banner .banner-text h1 {
+    font-size: 40px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+
+.auth-banner .banner-text h1 span {
+    color: var(--orange);
+}
+
+.auth-banner .banner-text p {
+    color: #d4d4d4;
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 420px;
+}
+
+.auth-banner .back-link {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.auth-banner .back-link:hover {
+    color: var(--orange);
+}
+
+/* ===== LADO DIREITO (FORMULÁRIO) ===== */
+.auth-form-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 420px;
+}
+
+.auth-box h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.auth-box h2 span {
+    color: var(--orange);
+}
+
+.auth-box .subtitle {
+    color: var(--gray);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+
+/* ===== CAMPOS DO FORMULÁRIO ===== */
+.form-panel {
+    display: none;
+}
+
+.form-panel.active {
+    display: block;
+}
+
+.field-group {
+    margin-bottom: 20px;
+}
+
+.field-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.field-group input {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid #e2e2e2;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.25s;
+}
+
+.field-group input:focus {
+    border-color: var(--orange);
+}
+
+.field-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px 0 20px;
+    font-size: 13px;
+}
+
+.field-row label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #555;
+    cursor: pointer;
+}
+
+.field-row a {
+    color: var(--orange);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.field-row a:hover {
+    text-decoration: underline;
+}
+
+/* ===== BOTÕES ===== */
+.btn {
+    width: 100%;
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--orange-dark);
+}
+
+.switch-text {
+    text-align: center;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 22px;
+}
+
+.switch-text a {
+    color: var(--orange);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.switch-text a:hover {
+    text-decoration: underline;
+}
+
+/* ===== SEPARADOR ===== */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #aaa;
+    font-size: 13px;
+    margin: 25px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.divider::before {
+    margin-right: 12px;
+}
+
+.divider::after {
+    margin-left: 12px;
+}
+
+.btn-google {
+    width: 100%;
+    background-color: #fff;
+    border: 1.5px solid #e2e2e2;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.25s;
+}
+
+.btn-google:hover {
+    background-color: var(--light-bg);
+}
+
+/* ===== "ESQUECI A SENHA" ===== */
+.back-to-login {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--orange);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.back-to-login:hover {
+    text-decoration: underline;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 900px) {
+    .auth-wrapper {
+        flex-direction: column;
+    }
+
+    .auth-banner {
+        min-height: 280px;
+        padding: 30px;
+    }
+
+    .auth-banner .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .auth-form-side {
+        padding: 40px 20px;
+    }
+}

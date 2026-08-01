@@ -1,0 +1,544 @@
+
+.main {
+    background-image: url("../_img/Sushi_container.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;        
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.texto h1{
+    font-size: 4rem;
+    font-family: Poppins;
+    margin-bottom: 0;
+}
+
+.texto h2 {
+    margin-top: 0;
+}
+
+.texto button {
+    width: 30%;
+    height: 5%;
+    background-color:   rgb(255, 102, 0);
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    font-family: Roboto;
+    font-weight: 800;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.texto button:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    transform-origin: center;
+    background-color:   rgb(252, 112, 18);
+}
+
+.texto p {
+    margin-right: 20%;
+    text-align: left;
+}
+
+.banner {
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.casa {
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
+
+.casa-header {
+    margin-top: 5%;
+    gap: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+.casa-header p{
+    color: rgb(255, 102, 0);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 0.75rem;
+    gap: 0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 15%;
+}
+
+.casa-header h2{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 2rem;
+    gap: 0%;
+    margin: 0;
+    text-align: center;
+}
+
+.casa-header #txt {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 400;
+    gap: 0;
+    margin-top: 2%;
+    letter-spacing: 0%;
+    width: 40%;
+    text-align: center;
+}
+
+.casa-produtos {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    gap: 3.5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+}
+
+.sushis {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 237, 237);
+    border-radius: 1.5vw;
+}
+
+.sushis .img {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sushis .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 1.5vw 0 0 1.5vw;
+    display: block;
+}
+
+.sushis .texto {
+    width: 55%;
+    height: 100%;
+    margin-right: 5%;
+    gap: 0;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.sushis .texto h1, .sushis .texto p {
+    color: black;
+    margin: 0;
+}
+
+.sushis .texto h1 {
+    font-size: 2.25rem;
+    margin-bottom: 3%;
+}
+
+.sashimis {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 237, 237);
+    border-radius: 1.5vw;
+}
+
+.sashimis .img {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sashimis .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 1.5vw 0 0 1.5vw;
+    display: block;
+}
+
+.sashimis .texto {
+    width: 55%;
+    height: 100%;
+    margin-right: 5%;
+    gap: 0;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.sashimis .texto h1, .sashimis .texto p {
+    color: black;
+    margin: 0;
+}
+
+.sashimis .texto h1 {
+    font-size: 2.25rem;
+    margin-bottom: 3%;
+}
+
+.categorias {
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.categorias-header {
+    margin-top: 5%;
+    gap: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+
+
+.categorias-header p{
+    color: rgb(255, 102, 0);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 0.75rem;
+    gap: 0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 15%;
+}
+
+.categorias-header h2{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 2rem;
+    gap: 0%;
+    margin: 0;
+    text-align: center;
+}
+
+.categorias-header #txt1 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 400;
+    gap: 0;
+    margin-top: 2%;
+    letter-spacing: 0%;
+    width: 40%;
+    text-align: center;
+}
+
+.categorias-container {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    gap: 3.5%;
+}
+
+.categorias-container .lista, .categorias-container .img {
+    height: 100%;
+    width: 50%;
+}
+
+.categorias-container .img {
+    overflow: hidden;
+}
+
+.categorias-container .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.categorias-container .lista{
+    display: flex;
+    gap: 5%;
+    margin-left: 2.5%;
+}
+
+.categorias-container .lista .img {
+    height: 50%;
+    width: 100%;
+    border-radius: 1vw 1vw 0 0;
+}
+
+.lista .texto {
+    height: 50%;
+    width: 100%;
+}
+
+.d1, .d2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+    height: 100%;
+    width: 100%;
+}
+
+.d1:hover, .d2:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s ease-in-out;
+    transform-origin: center;
+}
+
+.lista h1 {
+    font-size: 2rem;
+}
+
+.lista p {
+    font-size: 0.85rem;
+}
+
+.contato {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.contato-header {
+    margin-top: 5%;
+    gap: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+
+
+.contato-header p{
+    color: rgb(255, 102, 0);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 0.75rem;
+    gap: 0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 15%;
+}
+
+.contato-header h2{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 2rem;
+    gap: 0%;
+    margin: 0;
+    text-align: center;
+}
+
+.contato-header #txt1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 400;
+    gap: 0;
+    margin-top: 2%;
+    letter-spacing: 0%;
+    width: 60%;
+    text-align: center;
+}
+
+.contato-container {
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+}
+
+.contato-container .img, .contato-container .texto {
+    width: 50%;
+    height: 100%;
+}
+
+.contato-container .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    border-radius: 1vw;
+}
+
+.contato-container .texto {
+    margin: 0;
+    text-align: left;
+}
+
+.contato-container .texto h1{
+    font-size: 2rem;
+    color: black;
+}
+
+.contato-container .texto p{
+    font-size: 0.85rem;
+    color: black;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;   
+}
+
+.contato-container .texto span {
+    text-align: flex-end;
+    color: rgb(255, 111, 0);
+}
+
+.meios-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whatsapp {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.whatsapp .img, .whatsapp .txt {
+    height: 30%;
+}
+
+.whatsapp .img {
+    width: 6.5%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp .txt {
+    width: 75%;
+}
+
+.whatsapp .txt p{
+    width: 100%;
+    padding: 0;
+    padding-left: 2%;
+    margin: 0;
+    padding-bottom: 12px;   
+}
+
+.whatsapp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/*--*/
+
+.telefone {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.telefone .img, .telefone .txt {
+    height: 30%;
+}
+
+.telefone .img {
+    width: 6.5%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.telefone .txt {
+    width: 75%;
+}
+
+.telefone .txt p{
+    width: 100%;
+    padding: 0;
+    padding-left: 2%;
+    margin: 0;
+    padding-bottom: 12px;   
+}
+
+.telefone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/*--*/
+
+.email {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.email .img, .email .txt {
+    height: 30%;
+}
+
+.email .img {
+    width: 6.5%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.email .txt {
+    width: 75%;
+}
+
+.email .txt p{
+    width: 100%;
+    padding: 0;
+    padding-left: 2%;
+    margin: 0;
+    padding-bottom: 12px;   
+}
+
+.email img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
