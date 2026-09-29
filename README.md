@@ -94,7 +94,4 @@ This application was designed to run in a **local development environment**. Bec
 To use all features, such as user registration and product management, the project must be configured locally following the installation steps above.
 
 ## Collaboration 🤝
-
-* [@rhee-c31](https://github.com/rhee-c31)
-* [@Edukaxs](https://github.com/Edukaxs)
-* [@GalSal0967](https://github.com/GalSal0967)
+![](./CONTRIBUTOR_MURAL.svg)
